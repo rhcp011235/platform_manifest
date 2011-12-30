@@ -6,7 +6,8 @@
   <default revision="master"
            remote="aosp"
            sync-j="16" />
-
+<remote  name="rhcp011235"
+     fetch="git://github.com/rhcp011235/" />
 <project path="build" name="android_build" remote="rhcp011235" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
