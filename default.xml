@@ -7,7 +7,7 @@
            remote="aosp"
            sync-j="16" />
 
-<project path="build" name="android_build" remote="rootz" revision="master">
+<project path="build" name="android_build" remote="rhcp011235" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
