@@ -253,6 +253,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="external/bash" name="android_external_bash" remote="rhcp011235" revision="ics" />
   <project path="external/busybox" name="android_external_busybox" remote="rhcp011235" revision="ics"/>
-<project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="rhcp011235" revision="master"/>
+<project path="packages/apps/Superuser" name="Superuser" remote="rhcp011235" revision="master"/>
 <project path="system/su" name="android_system_su" remote="rhcp011235" revision="ics"/>
 </manifest>
