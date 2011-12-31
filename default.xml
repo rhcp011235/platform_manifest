@@ -253,4 +253,6 @@
   <project path="external/busybox" name="android_external_busybox" remote="rhcp011235" revision="ics"/>
 <project path="packages/apps/Superuser" name="Superuser" remote="rhcp011235" revision="master"/>
 <project path="system/su" name="android_system_su" remote="rhcp011235" revision="ics"/>
+<project path="vendor/rhcp" name="android_vendor_rhcp" remote="rhcp011235" revision="master" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="rhcp011235" revision="master" />
 </manifest>
