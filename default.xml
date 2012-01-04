@@ -33,6 +33,7 @@
   <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/toro" name="device_toro" remote="rhcp011235" revision="master"/>
+  <project path="device/samsung/tuna" name="device__tuna" remote="rhcp011235" revision="master" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
