@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="aosp"
+           fetch=".." />
 
-  <remote name="goo"
-          fetch="https://android.googlesource.com" />
+<default revision="master"
+           remote="aosp"
+           sync-j="16" />
+
           
   <remote  name="rhcp011235"
      fetch="git://github.com/rhcp011235/" />
      
-      <remote  name="git"
-     fetch="git://github.com/android/" />
      
 
- <default  remote="goo"
-	   revision="refs/tags/android-4.0.3_r1"
-	    />
-<project path="build" name="platform_build" remote="rhcp011235" revision="master">
+<project path="build" name="platform/build" remote="rhcp011235" revision="master">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
