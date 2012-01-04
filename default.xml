@@ -32,7 +32,7 @@
   <project path="device/moto/stingray" name="device/moto/stingray" />
   <project path="device/moto/wingray" name="device/moto/wingray" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/toro" name="android_device_samsung_toro" remote="rhcp011235" revision="master"/>
+  <project path="device/samsung/toro" name="device_toro" remote="rhcp011235" revision="master"/>
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -241,8 +241,7 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="external/bash" name="android_external_bash" remote="rhcp011235" revision="ics" />
   <project path="external/busybox" name="android_external_busybox" remote="rhcp011235" revision="ics"/>
-<project path="packages/apps/Superuser" name="Superuser" remote="rhcp011235" revision="master"/>
-<project path="system/su" name="android_system_su" remote="rhcp011235" revision="ics"/>
-<project path="vendor/rhcp" name="android_vendor_rhcp" remote="rhcp011235" revision="master" />
+  <project path="packages/apps/Superuser" name="Superuser" remote="rhcp011235" revision="master"/>
+  <project path="system/su" name="android_system_su" remote="rhcp011235" revision="ics"/>
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rhcp011235" revision="master" />
 </manifest>
