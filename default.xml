@@ -11,7 +11,8 @@
   <remote  name="rhcp011235"
      fetch="git://github.com/rhcp011235/" />
      
-     
+       <remote  name="cm"
+     fetch="https://github.com/cyanogenmod" />
 
 <project path="build" name="platform_build" remote="rhcp011235" revision="master">
  <copyfile src="core/root.mk" dest="Makefile" />
@@ -229,7 +230,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="rhcp011235" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cm" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
