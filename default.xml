@@ -12,7 +12,7 @@
      fetch="git://github.com/rhcp011235/" />
      
        <remote  name="cm"
-     fetch="https://github.com/cyanogenmod" />
+     fetch="https://github.com/cyanogenmod/" />
 
 <project path="build" name="platform_build" remote="rhcp011235" revision="master">
  <copyfile src="core/root.mk" dest="Makefile" />
