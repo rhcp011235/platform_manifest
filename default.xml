@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote name="aosp"
-      fetch="https://android.googlesource.com/" />
-
-<default revision="master"
+<remote  name="aosp"
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+  <default revision="master"
            remote="aosp"
-           sync-j="16" />
+           sync-j="4" />
 
           
   <remote  name="rhcp011235"
@@ -14,10 +14,10 @@
        <remote  name="cm"
      fetch="git://github.com/CyanogenMod/" />
 
-<project path="build" name="platform_build">
- <copyfile src="core/root.mk" dest="Makefile" />
-</project>
-
+<project path="build" name="platform/build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
